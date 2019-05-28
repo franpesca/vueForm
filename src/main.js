@@ -4,7 +4,9 @@ import Vuex from 'vuex'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import { store } from './store/store.js';
+import VeeValidate from 'vee-validate';
 
+Vue.use(VeeValidate);
 Vue.use(Vuex)
 Vue.use(ElementUI);
 
