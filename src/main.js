@@ -1,13 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Vuex from 'vuex'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import { store } from './store/store.js';
+import store  from './store/store';
 import VeeValidate from 'vee-validate';
 
 Vue.use(VeeValidate);
-Vue.use(Vuex)
 Vue.use(ElementUI);
 
 
