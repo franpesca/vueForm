@@ -1,0 +1,1 @@
+export const SET_USER_ONFORMSUBMIT = 'signupForm/SET_USER_ONFORMSUBMIT'

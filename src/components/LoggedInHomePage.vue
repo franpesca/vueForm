@@ -1,13 +1,11 @@
 <template>
-  <div>
-    i am sign up form
-  </div>
+  <div>I am logged in homepage</div>
 </template>
 <script>
 export default {
   
 }
 </script>
-<style>
+<style scoped>
 
 </style>

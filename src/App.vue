@@ -1,21 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <LoginForm msg="Welcome to my Form" class="secondary"/>
+    <Navigation />
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
-import LoginForm from "./components/LoginForm.vue";
+import Footer from "./components/Footer.vue";
+import Navigation from "./components/Navigation.vue";
 
 export default {
   name: "app",
   components: {
-    LoginForm
+    Footer,
+    Navigation
   },
   data () {
-      return {
-        
+    return {
+        primaryTitle: "carta decathlon"
       };
     }
 };
